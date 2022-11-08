@@ -8,7 +8,7 @@ import { DateRangePicker } from "react-date-range";
 import Logo from "../public/logo1.png";
 import { BsPeopleFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-const Header = ({ placeholder }) => {
+const Header = ({ placeholder: any }) => {
   const router = useRouter();
   const [searchInput, setSearchInput] = useState("");
   console.log(searchInput);

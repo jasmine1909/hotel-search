@@ -8,6 +8,7 @@ import MediumCard from "../components/MediumCard"
 import LargeCard from "../components/LargeCard"
 import Footer from "../components/Footer"
 
+
 const Home: NextPage = (exploreData) => {
   return (
     <div className="">
@@ -18,7 +19,7 @@ const Home: NextPage = (exploreData) => {
       
 
       {/* Header */}
-      <Header />
+      <Header placeholder={undefined}  />
     
       {/* Banner */}
       <Banner />
